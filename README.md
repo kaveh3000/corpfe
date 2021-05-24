@@ -6,4 +6,5 @@
    docker-compose up -d
    npm install 
    npm install tailwindcss
+   npm run develop
 ```   
