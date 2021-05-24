@@ -3,7 +3,7 @@ services:
   be: 
     image: kaveh8000/stbe
     ports:
-      - 8337:1337
+      - 1337:1337
     volumes:
       - bevol:/app
 volumes:
