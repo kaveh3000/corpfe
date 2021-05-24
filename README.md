@@ -9,7 +9,7 @@
    cd fe5
    docker-compose up -d
 ```
-The above should run the backend on port 8337 (http://localhost:8337)
+The above should run the backend on port 1337 (http://localhost:1337)
 
 - Now, install the frontend, which is a NextJS app:
 ```
@@ -24,3 +24,5 @@ So, install ```tailwindcss``` like below:
 ```
    npm run develop
 ```   
+
+If everything works out well, the frontend which is a NextJS (node) app listening on port 3000 (and can be invoked using browser as http://localhost:3000) will connect to backend on http://localhost:1337 to fetch the content, render it using the theme and show it in the browser.
