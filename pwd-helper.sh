@@ -1,6 +1,5 @@
 #!/bin/sh
-git clone https://github.com/leopard8k/corpfe.git fe5
-cd fe5
+
 docker-compose up -d
 docker run --rm --name next -v`pwd`:/app node:14 npm --prefix /app install
 docker run --rm --name next -v`pwd`:/app node:14 npm --prefix /app install tailwindcss
